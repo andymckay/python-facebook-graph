@@ -7,29 +7,38 @@ Hopefully more to come.
 
 Example usage:
 
-~/git/python-facebook-graph $ python fbgraph.py andymckay
-User: andymckay
+    >>> import fbgraph
+    >>> fb = fbgraph.FacebookUser('andymckay')
+    >>> fb.base["name"]
+    u'Andy McKay'
+    >>> fb.base.keys()
+    [u'first_name', u'last_name', u'link', u'id', u'name']
 
-base
-----------------------------------------
-{u'first_name': u'Andy', u'last_name': u'McKay', u'link': u'http://www.facebook.com/andymckay', u'id': u'568756182', u'name': u'Andy McKay'}
+Or...
 
-home
-----------------------------------------
-None
+    ~/git/python-facebook-graph $ python fbgraph.py andymckay
+    User: andymckay
 
-feed
-----------------------------------------
-{u'data': []}
+    base
+    ----------------------------------------
+    {u'first_name': u'Andy', u'last_name': u'McKay', u'link': u'http://www.facebook.com/andymckay', u'id': u'568756182', u'name': u'Andy McKay'}
 
-tagged
-----------------------------------------
-{u'data': []}
+    home
+    ----------------------------------------
+    None
 
-posts
-----------------------------------------
-{u'data': []}
+    feed
+    ----------------------------------------
+    {u'data': []}
 
-picture
-----------------------------------------
-????JFIF??;CREATO ...
+    tagged
+    ----------------------------------------
+    {u'data': []}
+
+    posts
+    ----------------------------------------
+    {u'data': []}
+
+    picture
+    ----------------------------------------
+    ????JFIF??;CREATO ...
