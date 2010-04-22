@@ -1,0 +1,35 @@
+Python Facebook Graph
+----------------------------
+
+A quick implementation of accessing the Facebook graph using Python.
+
+Hopefully more to come.
+
+Example usage:
+
+~/git/python-facebook-graph $ python fbgraph.py andymckay
+User: andymckay
+
+base
+----------------------------------------
+{u'first_name': u'Andy', u'last_name': u'McKay', u'link': u'http://www.facebook.com/andymckay', u'id': u'568756182', u'name': u'Andy McKay'}
+
+home
+----------------------------------------
+None
+
+feed
+----------------------------------------
+{u'data': []}
+
+tagged
+----------------------------------------
+{u'data': []}
+
+posts
+----------------------------------------
+{u'data': []}
+
+picture
+----------------------------------------
+????JFIF??;CREATO ...
